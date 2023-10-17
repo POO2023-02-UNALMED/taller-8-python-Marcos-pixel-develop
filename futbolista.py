@@ -39,4 +39,4 @@ class Futbolista(Deportista):
 
     def __str__(self) -> str:
         return (
-            "Mi nombre es" + self.getNombre() +"soy profesional en el deporte Futbol Tengo " + str(self.getEdad())+" años de edad y llevo "+ str(self.getAñosPracticando())+ " años en el deporte")
+            "Mi nombre es " + self.getNombre() +" soy profesional en el deporte Futbol Tengo " + str(self.getEdad())+" años de edad y llevo "+ str(self.getAñosPracticando())+ " años en el deporte")
